@@ -72,9 +72,24 @@ nav ul li {
     text-align: center;
 }
 
+.caption {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+    font: bold;
+}
+.full-width {
+    width: 80%;
+    margin: 50px;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 
 @media screen and (max-width:768px) {
-    main, footer, header, section, article, .pure-g, .pure-u-1-5, .pure-u-1-3, .pure-u-2-3, .stew-content, img.stew, main ul, .pure-u-1-4{
+    main, footer, header, section, article, .pure-g, .pure-u-1-5, .pure-u-1-3, .pure-u-2-3, .stew-content, img.stew, main ul, .pure-u-1-4, .overlay , .subtitle, .header, .business, .featured, .issue-info, .main-headline, .sub-headline{
         display: block;
         width: 95%;
         margin: auto;
