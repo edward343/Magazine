@@ -1,0 +1,25 @@
+   body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .full-width {
+      grid-column: 1 / -1;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    .caption {
+      font-size: 0.9em;
+      margin-top: 8px;
+    }
